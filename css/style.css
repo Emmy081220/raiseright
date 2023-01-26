@@ -1,0 +1,120 @@
+*::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: openGans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    font-family: openGans;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 6%), 0px 4px 6px -1px rgb(0 0 0 / 10%);
+}
+
+.logo-img {
+    width: 230px;
+}
+
+main  {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.submitForm {
+    width: 400px;
+    /* height: 400px; */
+}
+
+.form-title {
+    color: rgb(20, 56, 96);
+    font-weight: 300;
+    text-align: center;
+    font-size: 50px;
+}
+
+label {
+    display: block;
+    color: rgb(0, 94, 157);
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.username, .password {
+    background-color: #f7f7f7;
+    /* margin-bottom: 50px; */
+    /* padding: 10px; */
+}
+
+.username-contianer, .password-container {
+    margin-bottom: 50px;
+}
+
+input[type = text], [type = password] {
+    width: 100%;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6x;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 94, 157);
+    outline-color: rgb(0, 94, 157);
+}
+
+input[type = text], [type = password]::placeholder {
+    font-family: openGans;
+    font-size: 16px;
+    color: gray;
+}
+
+.input-link {
+    display: flex;
+    justify-content: end;
+    color: #005e9d;
+}
+
+.submitBtn {
+    display: block;margin: auto;
+    background-color: #005e9d;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back-btn-container {
+    text-align: center;
+    color: #005e9d;
+    margin-bottom: 80px;
+}
+
+.signUp-container {
+    text-align: center;
+}
+
+.signUp-container p {
+    font-size: 16px;
+    color: rgb(88, 89, 91);
+    font-weight: 400;
+}
+
+.signUp-container a {
+    color: #005e9d;
+}
